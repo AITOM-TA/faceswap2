@@ -11,8 +11,6 @@ RUN comfy node install --exit-on-fail comfyui-impact-pack@8.28.1
 # TBG SAM3 (Selector + Segmentation, pour SAM3 point prompts)
 RUN comfy node install --exit-on-fail https://github.com/Ltamann/ComfyUI-TBG-SAM3.git
 
-# (Optionnel) ComfyUI-SAM3 “vanilla” si tu veux aussi l’utiliser
-RUN comfy node install --exit-on-fail https://github.com/PozzettiAndrea/ComfyUI-SAM3.git
 
 # -------- Modèles utilisés par ton workflow Flux2 Face Swap --------
 
